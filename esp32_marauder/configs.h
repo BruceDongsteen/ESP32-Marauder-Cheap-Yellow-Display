@@ -80,19 +80,19 @@
     #define HAS_GPS
   #endif
 
-  #ifdef MARAUDER_V4
+  ifdef MARAUDER_V4
     //#define FLIPPER_ZERO_HAT
-    #define HAS_BATTERY
-    #define HAS_BT
+    define HAS_BATTERY
+    define HAS_BT
     //#define HAS_BUTTONS
-    #define HAS_NEOPIXEL_LED
-    #define HAS_PWR_MGMT
-    #define HAS_SCREEN
-    #define HAS_SD
-    #define USE_SD
+    define HAS_NEOPIXEL_LED
+    define HAS_PWR_MGMT
+    define HAS_SCREEN
+    define HAS_SD
+    define USE_SD
     #define HAS_TEMP_SENSOR
-    #define HAS_GPS
-  #endif
+    define HAS_GPS
+  endif
 
   #if defined(MARAUDER_V6) || defined(MARAUDER_V6_1)
     //#define FLIPPER_ZERO_HAT
