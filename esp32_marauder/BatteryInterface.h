@@ -1,15 +1,15 @@
-#ifndef BatteryInterface_h
-#define BatteryInterface_h
+ifndef BatteryInterface_h
+define BatteryInterface_h
 
-#include <Arduino.h>
+include <Arduino.h>
 
-#include "configs.h"
+include "configs.h"
 
-#include <Wire.h>
+include <Wire.h>
 
-#define I2C_SDA 33
-#define I2C_SCL 22
-#define IP5306_ADDR 0x75
+define I2C_SDA 33
+define I2C_SCL 22
+define IP5306_ADDR 0x75
 
 class BatteryInterface {
   private:
